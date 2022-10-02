@@ -1,5 +1,13 @@
 # v2ray-custom-geo
 
+## build
+修正引用
+``` shell
+go mod download
+go build -o v2ipdat geoip.go
+go build -o v2sitedat geosite.go
+```
+
 ## 自定义 geosite.dat & geoip.dat 文件
 
 ### 使用
